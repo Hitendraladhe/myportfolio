@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #030d29;
+    height: 100px;
+    width: 100vw;
+
+}
+.hit{
+    color: blue;
+}
+.logo {
+    font-size: 30px;
+    color: blue;
+    font-family: "sans serif";
+    margin: 30px;
+}
+
+.image {
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+}
+
+.quote {
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Home {
+    color: #fff;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-color: #050729;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    padding: 24px;
+    margin-left: 400px;
+}
+
+.nav-link {
+    padding: 30px;
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-container-fluid {
+    height: 100vh;
+    background-color: #050729;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding-top: 20px;
+}
+
+.btn1 {
+    background-color: blue;
+    width: 180px;
+    height: 60px;
+    border-radius: 12px;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn3 {
+    background-color: blue;
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn2 {
+    background-color: transparent;
+    width: 180px;
+    height: 60px;
+    border-radius: 12px;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.about-con {
+    background-color: #082261;
+    height: 46vh;
+    width: 50vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-con{
+    padding-right: 8px;
+}
+.fb-icon {
+    font-size: 50px;
+    color: #fff;
+}
+
+.h-icon{
+    font-size: 25px;
+    color: #374566;
+}
+i {
+    margin: 16px;
+}
+
+.heading {
+    padding-left: 200px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.About {
+    padding: 300px;
+}
+
+.image-about {
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+
+.contact {
+    text-align: center;
+    padding-top: 400px;
+}
+
+.cart {
+    background-color: #374566;
+    height: 100px;
+    width: 200px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.heading-contact {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .Home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .nav-element {
+        font-size: 8px;
+        color: orange;
+        padding-left: 38px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 14px;
+        align-content: space-between;
+    }
+
+    .navbar {
+        height: 50px;
+    }
+
+    li {
+        margin: 3px;
+    }
+}
+
+.About {
+    color: #fff;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-color: #050729;
+}
+
+.connectme {
+    color: #fff;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-color: #050729;
+}
+
+.portfolio {
+    color: #fff;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-color: #050729;
+    text-align: center;
+}
+
+.card-Portfolio {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    padding-left: 380px;
+}
+
+.name {}
+
+.heading-portfolio {
+    padding-top: 80px;
+}
+
+.contact {
+    color: #fff;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-color: #050729;
+}
